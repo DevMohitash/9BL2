@@ -9,7 +9,7 @@ NEWLOG=/data/local/mkadp.log
 NEWLOG2=/data/media/0/.mkadp.log
 LOGFU=/data/media/0/butterlimits.log
 CLOG=/data/media/0/YourBLchanges.log
-BRANCH="99-Uninistall-ButterLimits-Completely"
+BRANCH="ZZZ-Uninistall-ButterLimits-Completely"
 #=======================================#
 #=======================================#
 
@@ -69,6 +69,8 @@ pm enable 'com.google.android.gsf/.update.SystemUpdateActivity'
 pm enable 'com.google.android.gsf/.update.SystemUpdatePanoActivity'
 pm enable 'com.google.android.gsf/.update.SystemUpdateService$Receiver'
 pm enable 'com.google.android.gsf/.update.SystemUpdateService$SecretCodeReceiver'
+
+$BB rm -rf /data/data/com.mkadp.blapp
 
 $BB cp -rf /data/adb/modules/butterlimitsforop7poos11uni/system/etc/unbl/disable /data/adb/modules/butterlimitsforop7poos11uni/disable
 $BB cp -rf /data/adb/modules/butterlimitsforop7poos11uni/system/etc/unbl/remove /data/adb/modules/butterlimitsforop7poos11uni/remove
