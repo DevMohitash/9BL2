@@ -72,8 +72,8 @@ pm enable 'com.google.android.gsf/.update.SystemUpdateService$SecretCodeReceiver
 
 $BB rm -rf /data/data/com.mkadp.blapp
 
-$BB cp -rf /data/adb/modules/butterlimitsforop7poos11uni/system/etc/unbl/disable /data/adb/modules/butterlimitsforop7poos11uni/disable
-$BB cp -rf /data/adb/modules/butterlimitsforop7poos11uni/system/etc/unbl/remove /data/adb/modules/butterlimitsforop7poos11uni/remove
+$BB cp -rf /data/adb/modules/butterlimitsforop9poos11uni/system/etc/unbl/disable /data/adb/modules/butterlimitsforop7poos11uni/disable
+$BB cp -rf /data/adb/modules/butterlimitsforop9poos11uni/system/etc/unbl/remove /data/adb/modules/butterlimitsforop7poos11uni/remove
 
 $BB rm -rf /cache/*	
 $BB rm -rf /data/dalvik-cache/*
